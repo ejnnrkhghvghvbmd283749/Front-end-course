@@ -183,3 +183,41 @@ img{
     width: 70%;
     margin-bottom: 20px;
 }
+
+/* Video */
+
+.video{
+    padding: 10px 0 40px;
+}
+
+.video-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-preview{
+    margin-bottom: 30px;
+}
+
+/* Background */
+
+.bg-primary{
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.bg-light{
+    background: var(--light-color);
+    color: #333;
+}
+
+.bg-dark{
+    background: var(--dark-color);
+    color: #fff;
+}
+
+.bg-black{
+    background: #A95C76;
+    color: #fff;
+}
