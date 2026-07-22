@@ -221,3 +221,40 @@ img{
     background: #A95C76;
     color: #fff;
 }
+
+
+/* Testimonials */
+
+.testimonials{
+    padding: 40px 0;
+}
+
+.testimonials .testimonials-heading{
+    width: 700px;
+    margin-bottom: 40px;
+}
+
+/* Cards */
+
+.card{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 850px;
+    padding: 30px;
+
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.card .first{
+    margin-bottom: 50px;
+}
+
+.card p:nth-child(2){
+    font-weight: bold;
+}
