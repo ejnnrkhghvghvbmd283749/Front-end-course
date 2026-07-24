@@ -258,3 +258,112 @@ img{
 .card p:nth-child(2){
     font-weight: bold;
 }
+
+/* pricing */
+
+.pricing-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pricing-info .card{
+    border-radius: 10px;
+    width: 380px;
+}
+
+.pricing-info .card:nth-child(1){
+    background: var(--light-color);
+    margin-top: 40px;
+}
+
+.pricing-info .card:nth-child(2){
+    background: black;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.card .pricing-heading-one .subheading{
+    font-weight: normal;
+}
+
+.card .pricing-heading-two .subheading{
+    font-weight: normal;
+}
+
+.card .prices{
+    display: flex;
+    align-items:  baseline;
+    gap: 8px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.pricing-card-body ul li{
+    margin-bottom: 30px;
+}
+
+.pricing-card-body .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Faq */
+
+.faq{
+    padding: 40px;
+}
+
+.faq .question-boxes .question-box{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.faq .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:10px;
+    background: var(--primary-color);
+    cursor: pointer;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px 20px;
+}
+
+.faq .menu li{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.faq .menu .active{
+    display: flex;
+    background: #bababa;
+}
+
+.faq  .question-box .question{
+    padding: 20px 0;
+    position: relative;
+}
+
+.question-boxes .question-box .question h4{
+    font-weight: 600px;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.question-boxes .question-box .question i{
+    position: absolute;
+    right: -5px;
+    top: 45px;
+    cursor: pointer;
+}
